@@ -56,7 +56,7 @@ Welcome to Github-Actions-EKS-CICD-Cafe-Coffee! This project aims to streamline 
     - Firstly lauch Sonarqube using this -
     
     ```bash
-    docker run -d --name sonarqube -p 9000:9000 sonarqube:lts-community
+    docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
     ```
   - Then use the ip with port :9000 in your browser then SonarQube start, and type username- ```admin``` and password- ```admin```.
 
