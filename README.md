@@ -130,7 +130,7 @@ Welcome to Github-Actions-EKS-CICD-Cafe-Coffee! This project aims to streamline 
   ```bash
   cd ..
   ```
-## Now, use the process of GitHub Runner in your terminal. The command will take you to Settings > Actions > Runners > new self-hosted runner. Then, choose Linux and follow all the steps.
+- Now, use the process of GitHub Runner in your terminal. The command will take you to Settings > Actions > Runners > new self-hosted runner. Then, choose Linux and follow all the steps.
 
 ***If you encounter any hurdles or technical challenges along the way, know that I'm here to assist you every step of the journey. Feel free to reach out to me for support and guidance. You can easily connect with me through [LinkedIn](https://linkedin.com/in/md-azfar-alam), [Instagram](https://www.instagram.com/azfarxx_/) or [Discord](https://discord.com/users/877531143610708028)***
 
