@@ -29,7 +29,7 @@ jobs:
           trivy fs . > trivyfs.txt
       - name: Docker build and push
         run: |
-          # Run commands to build and push Docker images
+          # Run commands to build and push Docker imagess
           docker build -t cafe-coffee .
           docker tag cafe-coffee azfaralam440/cafe-coffee:latest
           docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
