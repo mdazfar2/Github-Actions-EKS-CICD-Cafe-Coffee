@@ -9,7 +9,7 @@ on:
 jobs:
   build-analyze-scan:
     name: Build
-    runs-on: [azfar]
+    runs-on: [azfarr]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
