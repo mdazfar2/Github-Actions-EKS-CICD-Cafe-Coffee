@@ -21,7 +21,7 @@ resource "aws_iam_role_policy_attachment" "example-AmazonEKSClusterPolicy" {
   role       = aws_iam_role.example.name
 }
 
-#get vpc data
+#get vpc dataa
 data "aws_vpc" "default" {
   default = true
 }
