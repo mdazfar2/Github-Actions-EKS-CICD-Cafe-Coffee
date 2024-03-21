@@ -4,7 +4,7 @@ provider "aws" {
 }
 # create s3 bucket
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "azfar-cafe-coffee" # change this
+  bucket = "azfar-cafe-coffee" # change thiss
 }
 
 # configure state lock for eks .tfstate file.
