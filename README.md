@@ -69,7 +69,7 @@ Welcome to Github-Actions-EKS-CICD-Cafe-Coffee! This project aims to streamline 
     cd Github-Actions-EKS-CICD-Cafe-Coffee
     ```
  
-    # Create s3 bucket using following commands 
+    # Create s3 bucket using following commands -
 
     ```bash
     cd s3-bucket
@@ -103,16 +103,34 @@ Welcome to Github-Actions-EKS-CICD-Cafe-Coffee! This project aims to streamline 
    
   # Now create EKS Cluster-
 
-     ```bash
-     cd Eks-terraform
-     terraform init
-     terraform fmt
-     terraform validate
-     terraform plan
-     terraform apply --auto-approve
-     ```
+   ```bash
+   cd Eks-terraform
+   ```
 
-## Now use the process of Github Runner in you terminal, command will get you in setting>Actions>Runners>new self hosted runners then choose linux then do all step by step
+  ```bash
+  terraform init
+  ```
+
+  ```bash
+  terraform fmt
+  ```
+
+  ```bash
+  terraform validate
+  ```
+
+  ```bash
+  terraform plan
+  ```
+
+  ```bash
+  terraform apply --auto-approve
+  ```
+
+  ```bash
+  cd ..
+  ```
+## Now use the process of Github Runner in you terminal, command will get you in ```setting>Actions>Runners>new self hosted runner``` then choose linux then do all step by step
 
 
 ***If you encounter any hurdles or technical challenges along the way, know that I'm here to assist you every step of the journey. Feel free to reach out to me for support and guidance. You can easily connect with me through [LinkedIn](https://linkedin.com/in/md-azfar-alam), [Instagram](https://www.instagram.com/azfarxx_/) or [Discord](https://discord.com/users/877531143610708028)***
