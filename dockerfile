@@ -1,4 +1,4 @@
-# Use the official Node.js 18 image as a base
+# Use the official Node.js 18 image as a basee
 FROM node:18 as build
 
 # Set the working directory inside the container
